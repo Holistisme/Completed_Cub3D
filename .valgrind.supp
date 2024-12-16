@@ -1,0 +1,183 @@
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   fun:__pthread_once_slow
+}
+{
+   <insert_a_suppression_name_here>
+   obj:/usr/lib/wsl/drivers/iigd_dch.inf_amd64_ffe7d9986336312b/libigd12um64xel.so
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   fun:OpenAdapter12
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   fun:mlx_init
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/wsl/lib/libd3d12core.so
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Free
+   ...
+   obj:/usr/lib/*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr32
+   ...
+   obj:/usr/lib/*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr16
+   ...
+   obj:/usr/lib/*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr8
+   ...
+   obj:/usr/lib/*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   ...
+   obj:/usr/lib/*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr2
+   ...
+   obj:/usr/lib/*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr1
+   ...
+   obj:/usr/lib/*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Param
+   ioctl(generic)
+   fun:ioctl
+   ...
+   obj:/usr/lib/wsl/lib/libd3d12core.so
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   ...
+   obj:/usr/lib/*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   fun:glfwCreateWindow
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/wsl/drivers/*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/dri/*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/wsl/lib/*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   fun:_dl_open
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   fun:glfwInit
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   fun:dl_open_worker
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   fun:_dl_init
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   fun:dlclose@@GLIBC_2.34
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   ...
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   ...
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:aligned_alloc
+   ...
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:_Znwm
+   ...
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+   ...
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libLLVM-15.so.1
+   ...
+}
